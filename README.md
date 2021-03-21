@@ -49,16 +49,16 @@ kubectl replace -f deployment.yaml --record
 ```
 
 9. Check the history 
-```
-kubectl rollout history deployment/web
+ ```
+ kubectl rollout history deployment/web
 
-```
+ ```
 11. Check testapp.info in the  browser (add testapp.info to the /etc/hosts file)
 
 12. Rollback the changes 
 ```
 kubectl rollout undo deployment/app --to-revision=1
-
+```
 13. Check testapp.info in the browser 
 
 

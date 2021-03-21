@@ -15,6 +15,6 @@ spec:
         app: web
     spec:
       containers:
-      - image: rahulkrishnanfs/fossmeet21:v6
+      - image: rahulkrishnanfs/fossmeet21:v7
         name: web-app
         
