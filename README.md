@@ -1,6 +1,8 @@
 #  Introduction to Kubernetes 
 <br>
 
+Install Minikube https://minikube.sigs.k8s.io/docs/start/
+
 Building docker image
 
 1. creating docker image

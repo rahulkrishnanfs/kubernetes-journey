@@ -22,7 +22,7 @@ func main() {
 
 func hello(w http.ResponseWriter, r *http.Request) {
 	host, _ := os.Hostname()
-	fmt.Fprintf(w, "Hello, world!\n")
+	fmt.Fprintf(w, "Welcome to FOSSSMeet'21!\n")
 	fmt.Fprintf(w, "Version: 8.0.0\n")
 	fmt.Fprintf(w, "Hostname-: %s\n", host)
 }
